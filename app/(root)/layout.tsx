@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import "../../styles/globals.css";
 import React from "react";
+import FreeShipping from "@/components/shared/FreeShipping";
+import Nav from "@/components/shared/Nav";
+import Offer from "@/components/shared/Offer";
+import Footer from "@/components/shared/Footer";
 
 export const metadata: Metadata = {
   title: "Ecommerce",
@@ -14,7 +18,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <FreeShipping />
+        <Nav />
+        <Offer />
+        <main>{children}</main>
+        <Footer />
+      </body>
     </html>
   );
 }
