@@ -17,10 +17,6 @@ const config: Config = {
       "3xl": "1700px",
     },
     extend: {
-      fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
-        inter: ["Inter", "sans-serif"],
-      },
       colors: {
         primary: {},
         grey: {
