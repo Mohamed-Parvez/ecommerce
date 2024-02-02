@@ -2,13 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  @font-face {
-    font-family: Harmonia Sans;
-    src: url(/public/assets/fonts/Harmonia-Sans/Harmonia\ Sans\ W01\ Regular.ttf);
-  }
-}
-
 @layer utilities {
   .flex-between {
     @apply flex justify-between items-center;
@@ -43,7 +36,7 @@
   }
 
   .extra-small {
-    @apply text-[11px] font-normal leading-[14.5px] ;
+    @apply text-[11px] font-normal leading-[13.75px] tracking-[0.355px];
   }
 
   .small-regular {
