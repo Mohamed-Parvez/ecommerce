@@ -17,6 +17,9 @@ const config: Config = {
       "3xl": "1700px",
     },
     extend: {
+      fontFamily: {
+        OpenSans: ["Open Sans", "sans-serif"],
+      },
       colors: {
         primary: {},
         grey: {
