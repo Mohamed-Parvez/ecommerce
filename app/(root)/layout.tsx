@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "../../styles/globals.css";
 import React from "react";
-import FreeShipping from "@/components/shared/FreeShipping";
 import Nav from "@/components/shared/Nav";
 import Offer from "@/components/shared/Offer";
 import Footer from "@/components/shared/Footer";
@@ -19,7 +18,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <FreeShipping />
         <Nav />
         <Offer />
         <main>{children}</main>
