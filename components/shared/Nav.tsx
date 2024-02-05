@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
 
 const Nav = () => {
   return (
     <section>
-      Nav
-    </section>
-  )
-}
 
-export default Nav
+    </section>
+
+  );
+};
+
+export default Nav;

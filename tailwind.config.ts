@@ -18,7 +18,8 @@ const config: Config = {
     },
     extend: {
       fontFamily: {
-        OpenSans: ["Open Sans", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
       },
       colors: {
         primary: {},
